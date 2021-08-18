@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Lato-Black";    
+     src: url(../assets/fonts/Lato-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url(../assets/fonts/Lato-Semibold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../assets/fonts/Lato-Bold.ttf) format("truetype");
+}
+
+// section 1
+.fnt_sty{
+    font-family: Lato-Black;
+}
+.logoutbtn_cls{
+    background-color: #2fd99b;   
+    border: none;
+    box-shadow: none;
+    border-radius: 0px 0px 14px 14px;
+    padding: 6px 20px;
+    position: relative;
+    right: 13%;
+    float: right;
+}
+.pb{
+    padding-bottom: 20px;
+}
+.bars_main{
+    
+    padding-top: 15px;
+}
+.logo_main{
+    // padding-top: 34px;
+}
+.logo_img{
+    width: 125px;    
+}
+.helplinecls_main{
+    text-align: right;
+    // padding-top: 34px;
+
+}
+.helplinecls_help{
+    margin: 0;
+}
+.helplinecls_help_a{
+    color: #909090;
+    text-decoration-line: none;
+    font-family: Lato-Semibold;
+    font-size: 20px;
+}
+.helplinecls_numb{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+//  section 2
+.headerbgclr_main{
+
+    background-color: #f7f7f7;
+    // padding-left: 210px;
+    border-top: 1px solid rgb(204, 203, 203);
+    padding: 15px;
+}
+.headerinb_2_1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.headerinb_2_2{
+    margin: 0;
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #909090;
+}
+
+// section 3
+.pt{
+    padding-top: 30px;
+}
+.brdr_cls{
+    border-bottom: 1px solid rgb(204, 203, 203);
+    padding: 15px 0px 20px 0px;
+}
+.fieldnames{
+    margin: 0;
+    padding-bottom: 5px;
+    font-family: Lato-Bold;
+    color: #909090;
+}
+.input_bars{    
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #7ce6c9;
+    border-left: none;
+    box-shadow: none;
+    padding-left: 0px;
+}
+.input_data{
+    font-family: Lato-Black;
+    color: rgb(97, 96, 96);;
+}
+.ul_cls{
+    padding: 0;
+    margin: 0;
+}
+.li_cls{
+    list-style-type: none;
+    display: inline-block;
+    padding:7px 10px 7px 10px;
+}
+.a_cls{
+    text-decoration-line: none;
+    color: rgb(97, 96, 96);
+    
+}
+.active{
+    border: 3px solid #2fd99b;
+    border-radius: 12px;
+    font-weight: 500;
+
+}
+.proceed_btn_cls{
+    background-color: #2fd99b;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 10px 0px;
+}
+
+// style new
+
+.help_icon_clsmain{
+    display: none;
+}
+.resident_imgcls{
+    display: none;
+}
+.non_resident_imgcls{
+    display: none;
+}
+.pin_city_inb1{
+    padding-right: 10px;
+}
+.pin_city_inb2{
+    padding-left: 15px;
+}
+.pin_city_inb{
+    display: inline-block;
+    width: 50%;
+    
+}
+.footer_img{
+    display: none;
+}
+.li_new_cls{
+    display: inline-block;
+}
+
+// Responsive css
+
+@media only screen and (max-width: 600px) {
+
+    .logoutbtn_cls_main {
+     display: none;
+    }
+    .logo_main .logo_img{
+        display: none;
+    }
+    .helplinecls_help{
+        display: none;
+    }
+    .helplinecls_numb{
+        display: none;
+    }
+    .help_icon_clsmain{
+        display: block;
+        position: relative;
+        bottom: 25px;
+    }
+    .headerbgclr_main{
+        background-color:white;
+        // padding-left: 210px;
+        border-top: none;
+        padding: 0px;
+    }
+    .ico_man_main{
+        display: none;
+    }
+    .headerinb_2_1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .headerinb_2_2{
+        display: none;
+    }
+    .brdr_cls{
+        display: none;
+    }
+    .resident_imgcls{
+        display: block;       
+
+    }
+    .non_resident_imgcls{
+        display: block;
+    }
+    .resident_imgclses{
+        width: 100px;
+        height: 100px;
+    }
+    .active_2_res{
+        border: 3px solid #cbebdf;
+        border-radius: 12px;
+        font-weight: 500;
+        color: #d3d0d0;
+    }
+    .ul_cls_res{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .li_cls{
+        text-align: center;
+    }  
+    .sec_pad{
+        padding: 10px 0px;
+    }    
+   .pin_city_inb2{
+       display: block;
+   }
+   .pin_city_inb3{
+       display: none;
+   }
+   .pin_city_inb{
+        width: 50%;
+        display: inline-block;
+        padding: 0px 5px;
+    }
+    .footer_img{
+        display: block;
+        width: 100%;
+    }
+    .li_new_cls{
+        width: 50%;
+    }
+
+  }
